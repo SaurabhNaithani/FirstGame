@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px) {
+    .main{
+        flex-wrap: wrap;
+        
+    }
+
+    .gameContainer{
+        position: absolute;
+        top: 300px;
+    }
+
+    .container{
+        
+        grid-template-columns: repeat(3,10vh);
+        grid-template-rows: repeat(3,10vh);
+    }
+
+    span{
+        padding: 5px;
+        width: 25vw;
+    }
+}
+
+@media screen and ( max-width: 460px) {
+    
+    .navbar{
+        width: 100vw;
+    }
+
+    .main{
+        width:100vw;
+    }
+    .imgContainer img{
+        width:100vw;
+    }
+    
+    .gameContainer{
+        top: 261px;
+    }
+}

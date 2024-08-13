@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* .baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+  /* font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0, 25, 31);
+}
+.navbar {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 5, 5);
+    color: white;
+}
+
+.item {
+
+    padding: 10px;
+    font-family: "Baskervville SC", serif;
+    font-size: 1rem;
+
+}
+
+.item a{
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh-10vh);
+    background: rgb(0, 25, 31);
+}
+
+.imgContainer {
+    padding: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.contentContainer{
+
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center; */
+    color: aliceblue;
+    
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentText{
+    font-family: "Baskervville SC", serif;
+
+}
+
+.gameInfo{
+    width: 280px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+
+.info{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px; 
+    text-align: center;
+    background: rgb(53, 1, 1);
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1rem;
+    
+}
+
+span{
+    padding: 10px;
+    width: 8vw;
+}
+
+#reset{
+    cursor: pointer;
+    background-color: rgb(88, 107, 119);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+#reset:hover{
+    background-color: rgb(170, 207, 195);
+}
+
+.gameContainer{
+    background: lightgreen;
+    display: flex;
+    /* position: absolute; */
+    /* align-self: center; */
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+
+.box{
+    display: flex;
+    border: 2px solid rgb(39, 31, 31);
+    font-size: 8vh;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box:hover{
+    background: rgb(164, 218, 171);
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
